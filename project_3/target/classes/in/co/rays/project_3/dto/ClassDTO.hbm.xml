@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 12-Sep-2024, 2:01:51 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping package="in.co.rays.project_3.dto" >
+          <class name="ClassDTO" table="ST_Class">
+		<id name="id" type="java.lang.Long">
+			<column name="ID"></column>
+			<generator class="increment"></generator>
+		</id>
+
+        <property name="Name" type="java.lang.String">
+            <column name="NAME" />
+        </property>
+        <property name="School" type="java.lang.String">
+            <column name="SCHOOL" />
+        </property>
+        <property name="Number" type="int">
+            <column name="NUMBER" />
+        </property>
+    </class>
+</hibernate-mapping>
